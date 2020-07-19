@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:800");
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  overflow-x: hidden;
+  background-image: url("bg.jpg");
+}
+.nav {
+  display: block !important;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  background-color: white;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.7s;
+}
+/*
+.nav a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #ccc;
+}*/
+
+.nav .close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+.slide a {
+  color: #000;
+  font-size: 36px;
+}
+#content {
+  padding: 20px;
+  transition: margin-left 0.7s;
+  overflow: hidden;
+  /*width: 100%;*/
+  margin-left: 250px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++   from me ++++++++++++++++++++++++++++++++++++++++*/
+
+.bt:hover {
+  border-color: #2ea595;
+}
+.bt {
+  background-color: #67eedd;
+  border-color: #0de7ca;
+  font-size: 20px;
+  padding: 5% 10%;
+  margin-bottom: 10%;
+  font-weight: bold;
+  border-radius: 3%;
+  color: white;
+}
+
+.bt2 {
+  border-color: #8f8f8f;
+  background-color: white;
+  font-size: 10px;
+  padding: 3% 7%;
+  margin-bottom: 40%;
+  font-weight: bold;
+  border-radius: 1%;
+  border-width: 1px;
+  color: #8f8f8f;
+}
+
+.btn3 {
+  margin-bottom: 1rem;
+}
+
+h7 {
+  font-size: 12px;
+  color: #a8a7a7;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.contact p {
+  font-size: 12px;
+  color: #c9c9c9;
+  margin-bottom: 2rem;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.card-deck {
+  margin: 5% 5% auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: fill;
+}
+
+.card {
+  height: 25rem;
+  background-color: white;
+}
+
+.card-footer {
+  padding: 5px !important;
+  background-color: white !important;
+}
+.copy {
+  font-size: 10px;
+  color: #e0e0e0;
+}
+
+.card-text {
+  margin-bottom: 0;
+}
+.container-fluid {
+  margin-bottom: 7%;
+}
+.parent {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.card-footer .col-lg-8 {
+	text-align: right;
+}
+
+@media (max-width: 700px) {
+  .nav {
+    width: 0 !important;
+  }
+  #content {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+}
